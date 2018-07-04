@@ -1,0 +1,35 @@
+# Polymorphism & Composition Homework - Quiz
+
+# Polymorphism
+
+1. What does the ___word___ 'polymorphism' mean?
+The ability of an object to take many forms.
+
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+We can apply polymorphism in OO design using abstract classes & interfaces to implement inheritance.
+
+A Java example would be an Baby_animal abstract class, a kitten subclass and a puppy subclass. With an IEat interface with the method eat(). Both the kitten and puppy subclasses will have the same method eat() from the one interface. They are both instances of baby_animal and will be able to implement the methods from the one abstract class also.
+
+3. What can we use to implement polymorphism in Java?
+Abstract classes and interfaces.
+
+4. How many 'forms' can an object take when using polymorphism?
+Many.
+
+5. Give an example of when you could use polymorphism.
+When modelling a Family.
+
+
+# Composition
+
+6. What do we mean by 'composition' in reference to object-oriented programming?
+What an object is made of/ what it's component parts are.
+
+7. When would you use composition? Provide a simple example in Java.
+A phone charger has a plug as a component part that it uses to execute the method charge().
+
+8. What is/are the advantage(s) of using composition?
+It is favoured over inheritance so we can implement methods from the component parts rather than over-doing it on inheritance.It also makes it possible for behaviour to change at run time.
+
+9. What happens to the behaviours when the object composed of them is destroyed?
+The object composed of behaviours owns those behaviours so they are also destroyed.
